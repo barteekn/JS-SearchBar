@@ -1,0 +1,49 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+
+
+.search-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+    border: 2px solid #E67E22;
+    border-radius: 5px;
+    color: #ECF0F1;
+    background-color: #34495E;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+input {
+    font-size: 1rem;
+}
+
+.user-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: .25rem;
+    margin-top: 1rem;
+}
+
+.card {
+    color: ECF0F1;
+    border: 3px solid #2C3E50;
+    border-radius: 5px;
+    background-color: #7F8C8D;
+    padding: .5rem;
+}
+
+.card > .header {
+    margin-bottom: .25rem;
+}
+
+.card > .body {
+    font-size: .8rem;
+    color: ECF0F1;
+}
+
+.hide {
+    display: none;
+}
