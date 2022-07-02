@@ -1,0 +1,41 @@
+* {
+  font-family: "Fira Sans", sans-serif;
+}
+
+.search-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+input {
+  font-size: 1rem;
+  width: 50%;
+}
+
+.user-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 0.25rem;
+  margin-top: 1rem;
+}
+
+.card {
+  border: 1px solid black;
+  background-color: whitesmoke;
+  padding: 0.5rem;
+}
+
+.card > .header {
+  font-weight: bolder;
+  margin-bottom: 0.25rem;
+}
+
+.card > .body {
+    font-weight: normal;
+  font-size: 0.8rem;
+}
+
+.hide {
+  display: none;
+}
